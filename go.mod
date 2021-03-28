@@ -1,4 +1,4 @@
-module go-db2-example
+module github.com/saylorsolutions/go-db2-example
 
 go 1.16
 
