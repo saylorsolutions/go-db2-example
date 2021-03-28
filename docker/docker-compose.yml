@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  testdb:
+    image: "testdb_image"
+    container_name: "testdb"
+    build:
+      context: testdb
+    ports:
+      - "50000:50000"
+    privileged: true
+    environment:
+      - LICENSE=accept
+      - DB2INST1_PASSWORD=testdb
+      - DBNAME=testdb
