@@ -13,3 +13,4 @@ services:
       - LICENSE=accept
       - DB2INST1_PASSWORD=testdb
       - DBNAME=testdb
+      - ARCHIVE_LOGS=false
